@@ -1,7 +1,7 @@
 import React from "react";
 // importing logos
 import swiggy_logo from "../../images/swiggy_logo.png";
-import search_icon from "../../images/kisspng-magnifying-glass-computer-icons-clip-art-5adba2490e8373.7973557915243433690595.jpg";
+import search_icon from "../../images/magnifying-glass.jpg";
 
 const Navbar = () => {
   return (
