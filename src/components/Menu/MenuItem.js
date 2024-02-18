@@ -20,7 +20,7 @@ export const MenuItem = ({ itemDetails }) => {
 
   useEffect(() => {
     getMealDetails(itemDetails?.idMeal);
-  }, []);
+  }, [itemDetails]);
 
   return (
     <>
