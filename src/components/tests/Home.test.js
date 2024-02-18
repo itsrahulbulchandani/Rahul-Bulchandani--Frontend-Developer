@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import fetchMock from "jest-fetch-mock";
-import { Home } from "../Home";
+import { Home } from "../Home.js";
 
 const createContextMock = () => React.createContext();
 jest.mock("../../contexts/FoodItemsContext.js", () => ({
