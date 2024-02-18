@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Rahul-Bulchandani--Frontend-Developer/static/css/main.9026bd92.css",
+    "main.js": "/Rahul-Bulchandani--Frontend-Developer/static/js/main.5c60b96a.js",
+    "static/js/453.bad20131.chunk.js": "/Rahul-Bulchandani--Frontend-Developer/static/js/453.bad20131.chunk.js",
+    "static/media/non-veg-icon.png": "/Rahul-Bulchandani--Frontend-Developer/static/media/non-veg-icon.2a69031b719a8fbe45ed.png",
+    "static/media/swiggy_logo.png": "/Rahul-Bulchandani--Frontend-Developer/static/media/swiggy_logo.945acef2bde882c3d691.png",
+    "static/media/magnifying-glass.jpg": "/Rahul-Bulchandani--Frontend-Developer/static/media/magnifying-glass.6159afc118bf49a030be.jpg",
+    "static/media/veg_symbol.png": "/Rahul-Bulchandani--Frontend-Developer/static/media/veg_symbol.ae408ce37a4db6433229.png",
+    "static/media/footer_logo.webp": "/Rahul-Bulchandani--Frontend-Developer/static/media/footer_logo.667031978a36606ccd8d.webp",
+    "static/media/filter_logo2.webp": "/Rahul-Bulchandani--Frontend-Developer/static/media/filter_logo2.c11355b3b674b06aa2dc.webp",
+    "index.html": "/Rahul-Bulchandani--Frontend-Developer/index.html",
+    "main.9026bd92.css.map": "/Rahul-Bulchandani--Frontend-Developer/static/css/main.9026bd92.css.map",
+    "main.5c60b96a.js.map": "/Rahul-Bulchandani--Frontend-Developer/static/js/main.5c60b96a.js.map",
+    "453.bad20131.chunk.js.map": "/Rahul-Bulchandani--Frontend-Developer/static/js/453.bad20131.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9026bd92.css",
+    "static/js/main.5c60b96a.js"
+  ]
+}
