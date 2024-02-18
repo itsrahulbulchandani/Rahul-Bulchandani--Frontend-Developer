@@ -8,6 +8,7 @@ export const Menu = (props) => {
 
   const [foodItemList, setFoodItemList] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [currentItems, setCurrentItems] = useState([]);
   const itemsPerPage = 12;
 
   // if isSorted is "alpha" sorting the items alphabetically
@@ -19,10 +20,19 @@ export const Menu = (props) => {
     setFoodItemList(foodItems);
   }, [context.foodItems, context.isSorted]);
 
-  // Calculate the items to show on the current page
-  const indexOfLastItem = currentPage * itemsPerPage;
-  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = foodItemList?.slice(indexOfFirstItem, indexOfLastItem);
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [foodItemList]);
+
+  useEffect(() => {
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    const currentItemsTemp = foodItemList?.slice(
+      indexOfFirstItem,
+      indexOfLastItem
+    );
+    setCurrentItems(currentItemsTemp);
+  }, [currentPage, foodItemList]);
 
   // Change page handler
   const goToPage = (pageNumber) => {
