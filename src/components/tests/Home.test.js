@@ -5,7 +5,7 @@ import fetchMock from "jest-fetch-mock";
 import { Home } from "../Home";
 
 const createContextMock = () => React.createContext();
-jest.mock("../../contexts/FoodItemsContext.jsx", () => ({
+jest.mock("../../contexts/FoodItemsContext.js", () => ({
   __esModule: true,
   default: createContextMock(),
 }));
