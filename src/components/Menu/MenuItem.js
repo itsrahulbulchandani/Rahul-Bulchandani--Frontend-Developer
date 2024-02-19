@@ -25,21 +25,24 @@ export const MenuItem = ({ itemDetails }) => {
   return (
     <>
       <div
-        className="xs:max-w-xs md:max-w-sm lg:max-w-lg xl:max-w-xl h-full overflow-hidden mt-4 transform transition duration-500 hover:scale-110 z-30"
+        className="overflow-hidden mt-4 flex flex-col transform transition duration-500 hover:scale-110 z-30"
         onClick={() => setShowModalToggle(true)}
+        style={{"margin-bottom":"-30%"}}
+
       >
         <img
-          className="w-full rounded-2xl h-48"
+          className="w-full rounded-2xl h-48 object-cover"
+          style={{height:"50%"}}
           src={itemDetails.strMealThumb}
           alt="food image stock"
         />
         <div className="px-4 py-2">
-          <div className="font-semibold text-l text-gray-800">
+          <div className="font-semibold text-l text-gray-800 object-cover">
             {itemDetails.strMeal.length > 15
               ? itemDetails.strMeal.slice(0, 15) + "..."
               : itemDetails.strMeal}
           </div>
-          <div className="flex text-sm items-center text-gray-800">
+          <div className="flex text-sm items-center text-gray-800 object-cover">
             <img src={rating_icon} className="w-4 rounded-full h-4 mr-2" />
             {(Math.random() * (5 - 1) + 1).toFixed(1)}
           </div>
