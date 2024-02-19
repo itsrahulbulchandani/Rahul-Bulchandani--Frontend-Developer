@@ -38,7 +38,7 @@ export const Home = () => {
   return (
     <FoodItemsContext.Provider value={contextValue}>
       <Navbar />
-      <div className="ml-20 mr-10">
+      <div className="mx-4 sm:mx-10 md:mx-20 lg:mx-40 xl:mx-20 2xl:mx-20">
         <h1 className="mt-7 font-bold text-2xl">
           Resturants with online food delivery in Ghaziabad
         </h1>

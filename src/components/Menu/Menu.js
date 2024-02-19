@@ -57,7 +57,7 @@ export const Menu = (props) => {
             onClick={() => goToPage(index + 1)}
             disabled={currentPage === index + 1}
             // if page is selected show orange border and orange bold text else show gray border and gray text
-            className={`h-6.5 w-6 mr-1 ml-1 border ${
+            className={`h-6.5 w-6 mr-1 ml-1 border relative z-40 ${
               currentPage === index + 1
                 ? "border-orange-500 rounded font-bold text-orange-500"
                 : "rounded border-gray-300"

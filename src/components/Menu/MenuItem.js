@@ -27,12 +27,9 @@ export const MenuItem = ({ itemDetails }) => {
       <div
         className="overflow-hidden mt-4 flex flex-col transform transition duration-500 hover:scale-110 z-30"
         onClick={() => setShowModalToggle(true)}
-        style={{"margin-bottom":"-30%"}}
-
       >
         <img
           className="w-full rounded-2xl h-48 object-cover"
-          style={{height:"50%"}}
           src={itemDetails.strMealThumb}
           alt="food image stock"
         />
