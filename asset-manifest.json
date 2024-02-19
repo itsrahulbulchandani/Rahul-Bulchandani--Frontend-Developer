@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rahul-Bulchandani--Frontend-Developer/static/css/main.9026bd92.css",
-    "main.js": "/Rahul-Bulchandani--Frontend-Developer/static/js/main.5c60b96a.js",
+    "main.css": "/Rahul-Bulchandani--Frontend-Developer/static/css/main.ff4fb55d.css",
+    "main.js": "/Rahul-Bulchandani--Frontend-Developer/static/js/main.5e7e0555.js",
     "static/js/453.bad20131.chunk.js": "/Rahul-Bulchandani--Frontend-Developer/static/js/453.bad20131.chunk.js",
     "static/media/non-veg-icon.png": "/Rahul-Bulchandani--Frontend-Developer/static/media/non-veg-icon.2a69031b719a8fbe45ed.png",
     "static/media/swiggy_logo.png": "/Rahul-Bulchandani--Frontend-Developer/static/media/swiggy_logo.945acef2bde882c3d691.png",
@@ -10,12 +10,12 @@
     "static/media/footer_logo.webp": "/Rahul-Bulchandani--Frontend-Developer/static/media/footer_logo.667031978a36606ccd8d.webp",
     "static/media/filter_logo2.webp": "/Rahul-Bulchandani--Frontend-Developer/static/media/filter_logo2.c11355b3b674b06aa2dc.webp",
     "index.html": "/Rahul-Bulchandani--Frontend-Developer/index.html",
-    "main.9026bd92.css.map": "/Rahul-Bulchandani--Frontend-Developer/static/css/main.9026bd92.css.map",
-    "main.5c60b96a.js.map": "/Rahul-Bulchandani--Frontend-Developer/static/js/main.5c60b96a.js.map",
+    "main.ff4fb55d.css.map": "/Rahul-Bulchandani--Frontend-Developer/static/css/main.ff4fb55d.css.map",
+    "main.5e7e0555.js.map": "/Rahul-Bulchandani--Frontend-Developer/static/js/main.5e7e0555.js.map",
     "453.bad20131.chunk.js.map": "/Rahul-Bulchandani--Frontend-Developer/static/js/453.bad20131.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9026bd92.css",
-    "static/js/main.5c60b96a.js"
+    "static/css/main.ff4fb55d.css",
+    "static/js/main.5e7e0555.js"
   ]
 }
